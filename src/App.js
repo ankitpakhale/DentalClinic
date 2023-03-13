@@ -30,7 +30,11 @@ function App() {
           <Route path="/login" exact element={<Login />} />
           <Route path="/register" exact element={<Register />} />
           <Route path="/appointment" exact element={<Appointment />} />
-          <Route path="/resentappointment" exact element={<ResentAppointment />} />
+          <Route
+            path="/resentappointment"
+            exact
+            element={<ResentAppointment />}
+          />
           <Route path="/team" exact element={<Team />} />
           <Route path="/service" exact element={<Service />} />
         </Routes>
