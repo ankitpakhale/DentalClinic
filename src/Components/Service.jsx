@@ -82,6 +82,7 @@ const Service = () => {
               </div>
             </div>
           </div>
+
           <div className="row g-5 wow fadeInUp" data-wow-delay="0.1s">
             <div className="col-lg-7">
               <div className="row g-5">

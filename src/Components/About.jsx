@@ -63,6 +63,7 @@ const About = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-5" style={{ minHeight: "500px" }}>
               <div className="position-relative h-100">
                 <img
@@ -73,6 +74,7 @@ const About = () => {
                 />
               </div>
             </div>
+          
           </div>
         </div>
       </div>
