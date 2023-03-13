@@ -29,6 +29,7 @@ const Navbar = () => {
             <Link to="/service" className="nav-item nav-link">
               Service
             </Link>
+
             <div className="nav-item dropdown">
               <a
                 href="#"
@@ -53,9 +54,9 @@ const Navbar = () => {
               Contact
             </Link>
           </div>
-          <a href="appointment.html" className="btn btn-primary py-2 px-4 ms-3">
+          <Link to="/appointment" className="btn btn-primary py-2 px-4 ms-3">
             Appointment
-          </a>
+          </Link>
         </div>
       </nav>
     </>
